@@ -20,7 +20,7 @@ return [
         "db" => [
             "host" => getenv('RDS_HOSTNAME'),
             "database" => getenv('RDS_DB_NAME'),
-            "username" => getenv('RDS_USERNAME'),
+            "username" => "root",
             "password" => getenv('RDS_PASSWORD')
         ],
     ],
